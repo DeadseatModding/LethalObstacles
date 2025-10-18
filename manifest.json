@@ -1,0 +1,16 @@
+{
+	"name": "LethalObstacles",
+	"namespace": "ZackeryRSmith",
+	"version_number": "1.0.0",
+	"description": "Obstacles can now just kill you",
+	"website_url": "https://github.com/DeadseatModding/LethalObstacles",
+	"dependencies": ["ZackeryRSmith-CustomChallenges"],
+	"extra": {
+		"godot": {
+			"authors": ["ZackeryRSmith"],
+			"description_rich": "",
+			"compatible_mod_loader_version": ["7.0.1"],
+			"compatible_game_version": ["0.0.0"]
+		}
+	}
+}
