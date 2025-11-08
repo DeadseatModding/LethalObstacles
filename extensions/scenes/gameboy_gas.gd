@@ -3,7 +3,7 @@ extends "res://scenes/gameboy_gas.gd"
 @onready var CC = ModLoader.get_node("ZackeryRSmith-CustomChallenges")
 
 func obstacle_hit() -> void:
-	if CC.challenges.get("lethal_obstacles"):
+	if CC.challenges.get("lethal_obstacles").enabled:
 		var audio_player := AudioStreamPlayer2D.new()
 		audio_player.stream = load("res://sfx/2D_Car_HitObject.mp3")
 		Engine.get_main_loop().root.add_child(audio_player)
